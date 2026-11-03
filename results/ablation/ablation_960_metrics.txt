@@ -1,0 +1,7 @@
+=== ABLASYON A METRİKLER (imgsz=960, Validation Set) ===
+Model: YOLOv8n | imgsz: 960 | patience=10 | seed=42
+mAP@0.5     : 0.5489
+mAP@0.5:0.95: 0.2461
+Precision   : 0.6456
+Recall      : 0.4919
+F1          : 0.5583

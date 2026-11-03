@@ -1,0 +1,12 @@
+path: dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+names:
+  0: EDH
+  1: IPH
+  2: IVH
+  3: SAH
+  4: SDH

@@ -1,0 +1,10 @@
+=== BASELINE METRİKLER (Validation Set) ===
+Model: YOLOv8n
+imgsz: 640
+epochs: 50 (early stopping patience=10)
+seed: 42
+mAP@0.5     : 0.4721
+mAP@0.5:0.95: 0.2414
+Precision   : 0.8688
+Recall      : 0.3797
+F1          : 0.5284
