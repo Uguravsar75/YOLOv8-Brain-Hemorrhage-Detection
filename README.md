@@ -1,10 +1,12 @@
 # YOLOv8 Multi-Class Brain Hemorrhage Object Detection & Spatial Localization
 
 [![CI](https://github.com/Uguravsar75/YOLOv8-Brain-Hemorrhage-Detection/actions/workflows/ci.yml/badge.svg)](https://github.com/Uguravsar75/YOLOv8-Brain-Hemorrhage-Detection/actions/workflows/ci.yml)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Uguravsar75/YOLOv8-Brain-Hemorrhage-Detection/blob/main/notebooks/brain_hemorrhage_colab.ipynb)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8n-00FFFF.svg)](https://github.com/ultralytics/ultralytics)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
 [![GUI: PyQt](https://img.shields.io/badge/GUI-PyQt5%20%7C%20PyQt6-41CD52.svg)](https://riverbankcomputing.com/software/pyqt/)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-orange.svg)](https://github.com/Uguravsar75/YOLOv8-Brain-Hemorrhage-Detection/releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **CE 480 Deep Learning — Project 3**  
@@ -102,6 +104,11 @@ The dataset ([Roboflow Brain Hemorrhage Detection v1](https://universe.roboflow.
 <p align="center">
   <img src="results/baseline/results.png" width="48%" />
   <img src="results/baseline/confusion_matrix_normalized.png" width="48%" />
+</p>
+
+<p align="center">
+  <img src="results/baseline/BoxPR_curve.png" width="48%" />
+  <img src="results/baseline/BoxF1_curve.png" width="48%" />
 </p>
 
 ### 2. Controlled Ablation Studies
